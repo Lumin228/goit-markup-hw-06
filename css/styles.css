@@ -622,7 +622,7 @@ header .container{
 
 .foot{
   background-color: #2e2f42;
-  padding: 96px calc(108px - 16px);
+  padding: 96px 0;
 
 }
 
