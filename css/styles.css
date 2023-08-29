@@ -1301,13 +1301,13 @@ letter-spacing: 0.48px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.second-list{
+.second-list-p{
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   padding: 0;
-  margin: 0;
+  margin: 0 0 120px 0;
   list-style: none;
 }
 
@@ -1370,4 +1370,11 @@ letter-spacing: 0.48px;
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
+}
+
+.first-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 100px 0 72px 0;
 }
