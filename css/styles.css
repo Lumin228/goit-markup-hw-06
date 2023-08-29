@@ -313,7 +313,7 @@ header .container{
 /* Second-Section */
 
 .section-two{
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .svsbg{
@@ -715,11 +715,14 @@ header .container{
   align-items: center;
   justify-content: center;
   gap: 16px;
-  flex-direction: column;
+}
+
+.form-lab{
+  width: 100%;
 }
 
 .form-lab-inp{
-  width: 398px;
+  width: 100%;
   height: 40px;
   flex-shrink: 0;
   font-size: 12px;
