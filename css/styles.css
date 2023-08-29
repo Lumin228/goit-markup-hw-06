@@ -614,12 +614,20 @@ header .container{
   .li-lovg{
     flex-basis: calc((100% - 48px) / 3);
   }
+  
+}
+
+@media (min-width: 768px) and (max-width: 1157px){
+  .section-five .container{
+    padding: 0 96px;
+  }
 }
 
 @media (min-width: 1158px){
   .li-lovg{
     flex-basis: calc((100% - 24px * 5) / 6);
   }
+  
 }
 
 /* Footer */
