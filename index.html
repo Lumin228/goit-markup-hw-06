@@ -27,7 +27,7 @@
       <!-- Header -->
 
       <header class="head">
-        <div class="head-div">
+        <div class="container">
           <nav class="">
             <div class="nav-holder">
               <!-- Logo -->
@@ -40,13 +40,13 @@
 
               <ul class="list nav-list">
                 <li class="nav-li-m">
-                  <a href="./index.html" class="link">Studio</a>
+                  <a href="./index.html" class="link link-p">Studio</a>
                 </li>
                 <li class="nav-li">
-                  <a href="./portfolio.html" class="link">Portfolio</a>
+                  <a href="./portfolio.html" class="link link-s">Portfolio</a>
                 </li>
                 <li class="nav-li">
-                  <a href="./index.html" class="link">Contacts</a>
+                  <a href="./index.html" class="link link-s">Contacts</a>
                 </li>
               </ul>
             </div>
@@ -93,10 +93,10 @@
         <!-- Section-Two -->
 
         <section class="section-two">
-          <div class="">
+          <div class="container">
             <h2 class="visually-hidden">Benefits</h2>
             <ul class="list second-list">
-              <li class="container">
+              <li class="list-rest">
                 <div class="svsbg">
                   <svg class="ssvg" width="64" height="64">
                     <use href="./images/icons.svg#antenna"></use>
@@ -109,7 +109,7 @@
                 </p>
               </li>
 
-              <li class="container">
+              <li class="list-rest">
                 <div class="svsbg">
                   <svg class="ssvg" width="64" height="64">
                     <use href="./images/icons.svg#clock"></use>
@@ -121,7 +121,7 @@
                   price within the shortest possible time.
                 </p>
               </li>
-              <li class="container">
+              <li class="list-rest">
                 <div class="svsbg">
                   <svg class="ssvg" width="64" height="64">
                     <use href="./images/icons.svg#diagram"></use>
@@ -134,7 +134,7 @@
                 </p>
               </li>
 
-              <li class="container">
+              <li class="list-rest">
                 <div class="svsbg">
                   <svg class="ssvg" width="64" height="64">
                     <use href="./images/icons.svg#astronaut"></use>
@@ -158,7 +158,7 @@
             <ul class="list list-secret">
               <li class="lisect">
                 <img
-                srcset="./images/Descktop2x"
+                srcset="./images/Descktop1x.jpg , ./images/Descktop2x.jpg"
                   src="./images/Descktop1x.jpg"
                   width="360"
                   height="300"
@@ -169,7 +169,8 @@
               </li>
               <li class="lisect">
                 <img
-                  src="./IMG/Phones.jpg"
+                srcset="./images/Mobile_screens1x.jpg , ./images/Mobile_screens2x.jpg"
+                  src="./images/Mobile_screens1x.jpg"
                   width="360"
                   height="300"
                   alt="phones"
@@ -179,7 +180,8 @@
               </li>
               <li class="lisect">
                 <img
-                  src="./IMG/both.jpg"
+                srcset="./images/Mobile_1x.jpg, ./images/Mobile_2x.jpg"
+                  src="./images/Mobile_1x.jpg"
                   width="360"
                   height="300"
                   alt="computer+phones"
@@ -567,8 +569,7 @@
               <label class="form-ag" for="user-privacy">
                 <span class="ez-txt"
                   ><svg width="10" height="8" class="svg-arg">
-                    <use href="./images/icons.svg#Checkbox"></use></svg
-                ></span>
+                    <use href="./images/icons.svg#Checkbox"></use></svg></span>
                 I accept the terms and conditions of the
                 <a href="./index.html" class="link-form">Privacy Policy</a>
               </label>
@@ -581,12 +582,10 @@
       <!-- Mobile Menu -->
 
       <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <div class="circle">
-            <svg class="" width="8" height="8">
-              <use href="./images/icons.svg#Iks"></use>
-            </svg>
-          </div>
+        <button class="js-close-menu modal-butt">
+          <svg class="clsv" width="8" height="8">
+            <use href="./images/icons.svg#Iks"></use>
+          </svg>
         </button>
         <div>
           <ul class="supa-fles list">
