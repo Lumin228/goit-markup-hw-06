@@ -539,6 +539,11 @@ header .container{
 .flitvg{
   fill: #f4f4fd;
 }
+@media (min-width: 1158px) and (max-width: 1175px){
+  .section-four .container{
+    padding: 0;
+  }
+}
 
 @media (min-width: 768px){
   .fourth-list{
