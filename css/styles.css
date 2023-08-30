@@ -635,6 +635,9 @@ header .container{
 }
 
 @media (min-width: 1158px){
+  .section-five{
+    padding: 120px 0;
+  }
   .li-lovg{
     flex-basis: calc((100% - 24px * 5) / 6);
   }
