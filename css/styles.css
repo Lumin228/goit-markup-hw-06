@@ -357,6 +357,10 @@ header .container{
     row-gap: 72px;
   }
 
+  .copyr{
+    text-align: start;
+  }
+
   .list-rest{
     flex-basis: calc((100% - 24px) / 2);
   }
@@ -610,6 +614,7 @@ header .container{
 @media (min-width: 768px){
   .lovg{
     gap: 24px;
+    row-gap: 72px;
   }
   .li-lovg{
     flex-basis: calc((100% - 48px) / 3);
@@ -619,7 +624,7 @@ header .container{
 
 @media (min-width: 768px) and (max-width: 1157px){
   .section-five .container{
-    padding: 0 96px;
+    width: 584px;
   }
 }
 
@@ -752,10 +757,6 @@ header .container{
   color: #ffffff;
 }
 
-.soc-media-block{
-  margin-bottom: auto;
-}
-
 .form{
   display: flex;
   flex-direction: column;
@@ -794,10 +795,10 @@ header .container{
   .restart{
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
     justify-content: start;
     gap: 24px;
     row-gap: 72px;
-    padding: 0 96px;
   }
   .form{
     flex-direction: column;
@@ -818,25 +819,32 @@ header .container{
     justify-content: start;
   }
 }
-
+@media (min-width: 768px) and (max-width: 1157px){
+  .restart{
+    width: 584px;
+  }
+}
 @media (min-width: 1158px){
  .restart{
-  align-items: flex-start;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: nowrap;
   padding: 0;
+  gap: 0px;
  }
  .foot{
   padding: 100px 0;
  }
  .soc-media-block{
-  margin-left: 20px;
+  margin-right: 80px;
+  margin-left: 120px;
  }
   .form{
     flex-wrap: nowrap;
   }
-  .restart{
-    flex-wrap: nowrap;
-    gap: 80px;
-  }
+ .marga{
+
+ }
   .form-in{
     flex-direction: row;
     flex-wrap: nowrap;
